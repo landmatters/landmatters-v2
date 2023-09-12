@@ -51,6 +51,16 @@
 	margin-left: 20px;
 }
 
+.round-btn{
+	border-radius: 33px !important;
+    padding: 10px 20px !important;
+}
+
+
+
+.mr-10{
+	margin-right: 10px;
+}
 
 @media screen and (max-width: 768px) {
 	.lm-header-btn{
@@ -147,6 +157,15 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
 	.lm-hero-image-text{
 		top: 17%;
+	}
+	.lm-hero-image-text h3  {
+		font-size: 35px !important;
+		font-family: 'Questrial';
+	}
+	.lm-hero-image-text h3 span {
+	
+		font-size: 35px !important;
+	
 	}
 }
 .lm-hero-image-text h3 span {
@@ -606,7 +625,7 @@ section {
 }
 
 .color-white {
-	color: #fff;
+	color: #fff !important;
 }
 
 .color-black {
@@ -1398,3 +1417,94 @@ footer {
 .lm-list li{
 	margin-bottom: 10px;
 }
+
+.founder-card {
+    /* width: 300px;
+    height: 425px; */
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    transition: all 0.6s ease;
+}
+
+.founder-card:hover {
+	box-shadow: rgb(42 115 66 / 20%) -10px 10px, rgb(42 115 66 / 19%) -20px 20px;
+}
+
+/* .founder-card .img {
+    height: 40%;
+    background: url("https://cdn.pixabay.com/photo/2015/07/28/20/55/tools-864983_1280.jpg");
+    background-size: cover;
+} */
+
+.founder-card .content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-weight: 300;
+}
+
+.founder-card .content h3 {
+    font-weight: 300;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.founder-card .content p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* .founder-card .content a {
+    list-style-type: none;
+    text-decoration: none;
+} */
+
+/* .founder-card .content button {
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 100;
+    font-size: 20px;
+    color: #FFAC1C;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffac1c26;
+    transition: 0.2s ease-in-out;
+} */
+
+/* .founder-card .content button:hover {
+    background-color: #ffac1c3f;
+    cursor: pointer;
+} */
+
+
+.lm-mar{
+	margin: 0px 10px;
+}
+
+.lm-secondary-button.round-btn:hover{
+color:  #fff !important;
+}
+.lm-primary-button.round-btn:hover{
+	color:  #000 !important;
+	}
+
+
+	@media screen and (max-width: 576px){
+		.lm-mar{
+			margin: 10px 0px;
+		}
+	}
+	
+
+	.pad-l-0{
+		padding-left: 0 !important;
+	}
